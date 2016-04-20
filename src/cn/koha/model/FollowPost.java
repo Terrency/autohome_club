@@ -7,6 +7,7 @@ public class FollowPost {
 
 	private MainPost mainPost;
 	private UserModel user;
+	private String postId;
 	private String content;
 	private int floorNumber;
 	private String postTime;
@@ -40,6 +41,12 @@ public class FollowPost {
 	}
 	public void setPostTime(String postTime) {
 		this.postTime = postTime;
+	}
+	public String getPostId() {
+		return postId;
+	}
+	public void setPostId(String postId) {
+		this.postId = postId;
 	}
 	
 }

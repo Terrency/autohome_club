@@ -5,6 +5,9 @@ package cn.koha.model;
  */
 public class MainPost {
 
+	private String bbs;
+	private String bbsId;
+	private String postId;
 	private String postTitle;
 	private String postTime;
 	private String postContent;
@@ -12,7 +15,6 @@ public class MainPost {
 	private String postType;
 	private int clickedTimes;
 	private int replyTimes;
-	private String postId;
 	
 	public String getPostTitle() {
 		return postTitle;
@@ -61,6 +63,18 @@ public class MainPost {
 	}
 	public void setPostId(String postId) {
 		this.postId = postId;
+	}
+	public String getBbs() {
+		return bbs;
+	}
+	public void setBbs(String bbs) {
+		this.bbs = bbs;
+	}
+	public String getBbsId() {
+		return bbsId;
+	}
+	public void setBbsId(String bbsId) {
+		this.bbsId = bbsId;
 	}
 	
 	

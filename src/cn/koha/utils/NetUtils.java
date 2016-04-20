@@ -112,4 +112,8 @@ public class NetUtils {
     	nextUrl += url.substring(url.lastIndexOf("."));
     	return nextUrl;
     }
+    public static void replyMainPost(MainPost mp, String content){
+    }
+    public static void replyFloorPost(FollowPost fp, String content){
+    }
 }
